@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Form Example</title>
+  <style>
+    .image-container {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  // Function to check if the entered word is correct for Image 1
+  function checkWord1(input, resultElement) {
+    // Function code...
+  }
+
+  // Function to check if the entered word is correct for Image 2
+  function checkWord2(input, resultElement) {
+    // Function code...
+  }
+
+  // Function to check if the entered word is correct for Image 3
+  function checkWord3(input, resultElement) {
+    // Function code...
+  }
+
+  // Function to check if the entered word is correct for Image 4
+  function checkWord4(input, resultElement) {
+    // Function code...
+  }
+
+  // Create container for the first two images
+  const firstRowContainer = document.createElement('div');
+  firstRowContainer.style.whiteSpace = 'nowrap'; // Prevent wrapping to the next line
+
+  // Create image container for Image 1
+  const imageContainer1 = document.createElement('div');
+  imageContainer1.className = 'image-container';
+
+  const image1 = document.createElement('img');
+  image1.src = 'assets/img/img1.jpg';
+  image1.alt = 'Image 1';
+  image1.width = 300;
+  image1.height = 300;
+  imageContainer1.appendChild(image1);
+
+  const form1 = document.createElement('form');
+  // ... (form elements, input, result)
+
+  imageContainer1.appendChild(form1);
+  firstRowContainer.appendChild(imageContainer1);
+
+  // Create image container for Image 2
+  const imageContainer2 = document.createElement('div');
+  imageContainer2.className = 'image-container';
+
+  const image2 = document.createElement('img');
+  image2.src = 'assets/img/img2.jpg';
+  image2.alt = 'Image 2';
+  image2.width = 300;
+  image2.height = 300;
+  imageContainer2.appendChild(image2);
+
+  const form2 = document.createElement('form');
+  // ... (form elements, input, result)
+
+  imageContainer2.appendChild(form2);
+  firstRowContainer.appendChild(imageContainer2);
+
+  // Append the first row container to the body
+  document.body.appendChild(firstRowContainer);
+
+  // Create container for the next two images
+  const secondRowContainer = document.createElement('div');
+
+  // Create image container for Image 3
+  const imageContainer3 = document.createElement('div');
+  imageContainer3.className = 'image-container';
+
+  const image3 = document.createElement('img');
+  image3.src = 'assets/img/img3.jpg';
+  image3.alt = 'Image 3';
+  image3.width = 300;
+  image3.height = 300;
+  imageContainer3.appendChild(image3);
+
+  const form3 = document.createElement('form');
+  // ... (form elements, input, result)
+
+  imageContainer3.appendChild(form3);
+  secondRowContainer.appendChild(imageContainer3);
+
+  // Create image container for Image 4
+  const imageContainer4 = document.createElement('div');
+  imageContainer4.className = 'image-container';
+
+  const image4 = document.createElement('img');
+  image4.src = 'assets/img/img4.jpg';
+  image4.alt = 'Image 4';
+  image4.width = 300;
+  image4.height = 300;
+  imageContainer4.appendChild(image4);
+
+  const form4 = document.createElement('form');
+  // ... (form elements, input, result)
+
+  imageContainer4.appendChild(form4);
+  secondRowContainer.appendChild(imageContainer4);
+
+  // Append the second row container to the body
+  document.body.appendChild(secondRowContainer);
+
+</script>
+
+</body>
+</html>
